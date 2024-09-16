@@ -1,73 +1,60 @@
-# Learn.CSEdge.Courses
+# Chirpy Starter
 
-![Stars](https://img.shields.io/github/stars/CSEdgeOfficial/learn.csedge.courses?style=social) ![Forks](https://img.shields.io/github/forks/CSEdgeOfficial/learn.csedge.courses?style=social) ![Issues](https://img.shields.io/github/issues/CSEdgeOfficial/learn.csedge.courses) ![Pull Requests](https://img.shields.io/github/issues-pr/CSEdgeOfficial/learn.csedge.courses) ![Maintenance](https://img.shields.io/maintenance/yes/2024)
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-**Learn.CSEdge.Courses** is a dynamic learning platform providing free, high-quality educational content for computer science students and enthusiasts. Explore a vast array of resources, neatly categorized by technology domains, programming languages, and varying levels of difficulty.
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
+`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
+from the theme's gem. If you have ever installed this theme gem, you can use the command
+`bundle info --path jekyll-theme-chirpy` to locate these files.
 
-## Technology Stack
+The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
+able to enjoy the out-of-the-box experience when using feature-rich themes.
 
-- **Frontend**: HTML5, CSS3, JavaScript, BootStrap
-- **IDE**: VS Code/Google IDX
-- **Version Control**: Git and GitHub
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
+Jekyll site. The following is a list of targets:
 
-## Get Started
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
+```
 
-### Setup and Installation
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
+latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
-1. **Fork and Clone the Repository**
-   To get started with contributing to our project, fork the repo and then clone it to your local machine:
-   ```bash
-   git clone https://github.com/CSEdgeOffical/learn.csedge.courses.git
-   cd learn.csedge.courses
-   ```
+## Prerequisites
 
-2. **Make Your Changes**
-   Make the necessary modifications or additions to the project files.
+Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
+the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 
-3. **Commit and Push**
-   Once you've made your changes, commit them and push to your fork:
-   ```bash
-   git add .
-   git commit -m "Describe your changes here"
-   git push
-   ```
+## Installation
 
-4. **Create a Pull Request**
-   Navigate back to the original repository and open a pull request from your forked repository.
+Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
+`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
 
-### Contributing
+Then clone it to your local machine and run:
 
-We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
-- Reporting a bug
-- Discussing the current state of the code
-- Submitting a fix
-- Proposing new features
+```console
+$ bundle
+```
 
-## Resources
+## Usage
 
-- **Git and GitHub**: [Git and GitHub for Beginners](https://learn.microsoft.com/en-us/training/paths/get-started-github-and-visual-studio-code/?wt.mc_id=studentamb_299348)
-- **Web Development**: [Web Development for Beginners](https://learn.microsoft.com/en-us/training/paths/web-development-101/?wt.mc_id=studentamb_299348)
+Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
-## Design
+## Contributing
 
-This project's design can be viewed here: [Learn.CSEdge.Courses Design](https://learn.csedge.courses)
+This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/CSEdgeOfficial/learn.csedge.courses/blob/main/LICENSE) file for details.
+This work is published under [MIT][mit] License.
 
-## Made With ❤️ by CSEdge
-
-![Built With Love](https://forthebadge.com/images/badges/built-with-love.svg)
-![Built By Developers](https://forthebadge.com/images/badges/built-by-developers.svg)
-
-# Our Contributors ✨
-<a href="https://github.com/CSEdgeOfficial/learn.csedge.courses/graphs/contributors">
-  <img align="center" src="https://contrib.rocks/image?max=100&repo=CSEdgeOfficial/learn.csedge.courses" />
-</a> 
-
-## Connect with Us
-
-Feel free to contact us at [internship@csedge.courses](mailto:internship@csedge.courses) or connect with us on [GitHub](https://github.com/CSEdgeOfficial).
-
-![Learn.CSEdge.Courses Infographic](https://camo.githubusercontent.com/dd5e3080a7adc2ead8f86cbbd6577cee0a38439c0ebf195021ce41587b0a405f/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a633459675258595161794f5657785633376f757272772e706e67)
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[use-template]: https://github.com/cotes2020/chirpy-starter/generate
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
