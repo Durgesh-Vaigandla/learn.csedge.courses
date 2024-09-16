@@ -1,6 +1,7 @@
 ---
 title: About CSEdge
 date: 2024-09-16
+order: 1
 ---
 
 Welcome to CSEdge, your go-to source for **affordable solutions for businesses**! Our mission is to empower organizations of all sizes by making technology accessible and easy to implement.

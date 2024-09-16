@@ -13,3 +13,6 @@ end
 
 # Gemfile
 gem 'wdm', '>= 0.1.0', :platforms => [:mswin, :mingw, :x64_mingw]
+gem 'logger'
+gem 'csv'
+gem 'base64'
