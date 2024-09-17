@@ -1,6 +1,7 @@
 ---
 title: About CSEdge
 date: 2024-09-16
+icon: fas fa-info-circle
 order: 1
 ---
 
