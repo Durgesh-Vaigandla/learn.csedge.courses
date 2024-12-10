@@ -5,7 +5,7 @@ title       : "What is Python?Python Installation and Features"
 date        : 2024-12-10
 author      : Charishma
 categories  : [Programming]
-tags        : [Coding,Python]
+tags        : [Coding,Python Programming]
 
 ---
 
