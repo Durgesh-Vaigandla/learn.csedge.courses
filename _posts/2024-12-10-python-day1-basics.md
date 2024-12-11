@@ -3,7 +3,7 @@
 layout : post
 title : "What is Python?Python Installation and Features"
 date : 2024-12-10
-Author : Charishma
+Author : charishma_sirigiri
 categories : [Programming]
 tags : [Coding,Python Programming]
 

@@ -1,0 +1,16 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+charishma_sirigiri:
+  name: Charishma Sirigiri
+  url: https://github.com/CharishmaSirigiri/
+
+durgesh_vaigandla:
+  name: Durgesh Vaigandla
+  twitter: DurgeshV05
+  url: https://github.com/Durgesh-Vaigandla/
