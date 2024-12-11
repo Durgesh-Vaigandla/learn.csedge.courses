@@ -1,11 +1,11 @@
 ---
 
-Title: A Comprehensive Guide to HTML Elements  
-Description: A detailed guide to the most commonly used HTML tags and elements in web development.  
-Author: CSEdge  
-Date: 2024-09-17  
-Categories: [Web Development, HTML]  
-Tags: [HTML, Web Development]  
+title: A Comprehensive Guide to HTML Elements  
+description: A detailed guide to the most commonly used HTML tags and elements in web development.  
+author: durgesh_vaigandla  
+date: 2024-09-17  
+categories: [Web Development, HTML]  
+tags: [HTML, Web Development]  
 pin: ture
 
 ---

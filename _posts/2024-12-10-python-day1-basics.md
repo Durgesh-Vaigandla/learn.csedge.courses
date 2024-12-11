@@ -1,9 +1,9 @@
 ---
 
 layout : post
-title : "What is Python?Python Installation and Features"
+title : "What is Python? Python Installation and Features"
 date : 2024-12-10
-Author : charishma_sirigiri
+author : charishma_sirigiri
 categories : [Programming]
 tags : [Coding,Python Programming]
 
