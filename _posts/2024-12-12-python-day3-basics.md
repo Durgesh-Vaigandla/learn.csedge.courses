@@ -156,7 +156,11 @@ print(result)  # Output: 14
 
 ## *References*
 
-{% include youtube.html video_id="tSP3jWnx5ZY" %}
+1. [Python Official Documentation - Operators](https://docs.python.org/3/reference/operators.html)
+2. [Real Python - Python Operators](https://realpython.com/python-operators-expressions/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tSP3jWnx5ZY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ---
 
