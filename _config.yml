@@ -67,6 +67,10 @@ analytics:
   fathom:
     id: # fill in your Fathom Site ID
 
+#Google ads
+ads:
+  google_adsense: "ca-pub-8930077947690409"
+
 # Page views settings
 pageviews:
   provider: # now only supports 'goatcounter'
